@@ -1,0 +1,6 @@
+#!/bin/bash -x
+for file in  *;
+do
+mv "$file" "${file}_$(date +"%d%m%y")";
+done
+

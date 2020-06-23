@@ -1,0 +1,5 @@
+#!/bin/bash -x
+read -p "enter number 1: " x
+read -p "enter number 2: " y
+sum=$(( RANDOM ))
+echo $sum
