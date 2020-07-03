@@ -1,0 +1,6 @@
+#!/bin/bash -x
+for file in `/etc/passwd`;
+do
+foldername=`awk -F. '{print $1}'`
+echo $foldername
+done

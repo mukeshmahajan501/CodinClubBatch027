@@ -5,3 +5,4 @@ for files in ${files[*]}
 do
 cp $files $backupFolder
 done
+
